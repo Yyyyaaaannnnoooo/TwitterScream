@@ -32,10 +32,10 @@ void setup() {
   /////having the correct path is fondamental/////
   file = new File("/Users/yannpatrick/Documents/Processing3/TwitterScream/output.jpg");
   ////////////////////////////////////////////////
-  cb.setOAuthConsumerKey("Vq0pTTJbVeCETRrmxmIwX4v67");
-  cb.setOAuthConsumerSecret("JFhruKoNx0xomOMb5GmznuJJTyu0ZSATBWknXfVE1c9mIpVBXM");
-  cb.setOAuthAccessToken("812625522689765376-gccAXyVDUiXrPP0gPG8LhOb69yn6BHy");
-  cb.setOAuthAccessTokenSecret("wBNJWGtti8EgSflnDFAzoWKE7LbzCTARbXoFlMXzXneBe");
+  cb.setOAuthConsumerKey("...");
+  cb.setOAuthConsumerSecret("...");
+  cb.setOAuthAccessToken("...");
+  cb.setOAuthAccessTokenSecret("...");
   TwitterFactory tf = new TwitterFactory(cb.build());
   twit = tf.getInstance();
   ///AUDIO SETUP///
